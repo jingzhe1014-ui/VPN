@@ -5,7 +5,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - name: "yg2xbbhi"
+  - name: "梦梦"
     type: vless
     server: 3-ui.jingzhe.click
     port: 56341
@@ -23,7 +23,7 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - yg2xbbhi
+      - 梦梦
       - DIRECT
 
 rules:
